@@ -14,6 +14,7 @@ class Star(Universe):
         self.pen.hideturtle()
         self.pen.speed(0) # Render asap
 
+
     def draw(self):
         self.pen.penup()
         self.pen.goto(self.x, self.y)
@@ -31,4 +32,5 @@ class Star(Universe):
             "x": self.x,
             "y": self.y,
         }
+       
         

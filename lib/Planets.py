@@ -3,9 +3,10 @@ from lib.Universe import Universe
 
 class Orbit(Universe):
     
-    def __init__(self, star_name, distance, color, velocity) -> None:
+    def __init__(self, name, star_name, distance, color, velocity) -> None:
         super().__init__()
 
+        self.name = name
         self.distance = distance
         self.color = color
         self.velocity = velocity
